@@ -1,0 +1,35 @@
+{
+  "name": "monitor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.12.0",
+    "@nextui-org/react": "^2.4.8",
+    "@suiet/wallet-kit": "^0.3.2",
+    "@types/nprogress": "^0.2.3",
+    "@types/papaparse": "^5.3.14",
+    "axios": "^1.7.2",
+    "framer-motion": "^11.11.9",
+    "next": "14.2.4",
+    "nprogress": "^0.2.0",
+    "papaparse": "^5.4.1",
+    "react": "^18",
+    "react-countdown": "^2.3.6",
+    "react-dom": "^18",
+    "sweetalert2": "^11.14.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
