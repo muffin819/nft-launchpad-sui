@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NFT Mint Launchpad on Su
 
-## Getting Started
+This is a mint launchpad designed to mint unique NFTs, featuring whitelist access for early adopters. Whitelisted users can mint a limited number of NFTs at a reduced price, ensuring an exclusive and fair minting process.
 
-First, run the development server:
+## 📚 Features
 
-```bash
+- Built an interactive and responsive NFT minting platform using Next.js for the front end and Express.js for the back end.
+- Developed smart contracts in Move language, ensuring security and efficiency on the Sui blockchain.
+- Verified user eligibility for whitelist privileges, including lower minting costs and restricted token minting limits.
+- Randomly generated and assigned unique image traits during the minting process, ensuring every NFT is distinct.
+- Integrated with multiple wallet providers to enhance user accessibility and streamline transactions.
+- Ensured users hold 10+ SUI in their wallets before allowing transactions, adding a layer of validation.
+- Implemented Chart.js for a user-friendly interface to track NFT traits and wallet activity.
+
+## 🛠️ Technology Used
+
+- Frontend: Next.js, Chart.js
+- Backend: Express.js, Node.js
+- Smart Contracts: Move (Sui blockchain)
+- Wallets: Sui-compatible wallets (e.g., Sui Wallet, Ethos)
+- Blockchain: Sui blockchain
+
+## 🚀 How to Use
+
+### 1. Setup
+
+Clone the repository and install dependencies:
+git clone https://github.com/your-repo/nft-launchpad
+cd nft-launchpad
+npm install
+
+### 2. Run the Platform
+
+Start the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3 Minting
+- Connect your wallet and ensure you hold 10+ SUI.
+- If you are on the whitelist, enjoy reduced minting fees and mint your NFTs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✉ Connect With Me:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ProDogeLover)
+[![Mail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rizzmuffin24@gmail.com)
+[![Telegram Badge](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dogewhiz)
