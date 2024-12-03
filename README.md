@@ -24,15 +24,15 @@ This is a mint launchpad designed to mint unique NFTs, featuring whitelist acces
 
 ### 1. Setup
 
-Clone the repository and install dependencies:
-git clone https://github.com/your-repo/nft-launchpad
-cd nft-launchpad
-npm install
+- Clone the repository and install dependencies:
+  git clone https://github.com/muffin819/nft-launchpad-sui.git
+  cd nft-launchpad
+  npm install
 
 ### 2. Run the Platform
 
-Start the development server:
-npm run dev
+- Start the development server:
+  npm run dev
 
 ### 3 Minting
 - Connect your wallet and ensure you hold 10+ SUI.
